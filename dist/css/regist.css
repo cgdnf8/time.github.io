@@ -1,0 +1,92 @@
+html {
+  height: 100%; }
+
+body {
+  position: relative;
+  font-size: 14px;
+  height: 100%; }
+
+a {
+  text-decoration: none; }
+
+header {
+  position: relative;
+  height: 1.35rem;
+  background: url(../img/logo_mtime.png) no-repeat center #1C2635;
+  background-size: 1.79rem auto;
+  font-size: 1em; }
+  header a {
+    float: left;
+    display: inline-block;
+    width: 1.35rem;
+    height: 1.35rem;
+    color: #ccc; }
+    header a i {
+      display: inline-block;
+      width: 1.35rem;
+      height: 1.35rem;
+      line-height: 1.35rem;
+      text-align: center; }
+
+nav .zc {
+  padding: 0.5rem;
+  box-shadow: 0 1px 10px #888; }
+  nav .zc span {
+    display: inline-block;
+    height: 1.6rem;
+    line-height: 1.6rem;
+    font-size: 1.2em;
+    color: #888; }
+  nav .zc input {
+    border: 0;
+    height: 1.6rem;
+    font-size: 1.2em;
+    outline: none; }
+  nav .zc hr {
+    margin: 0; }
+  nav .zc #tell {
+    width: 4rem; }
+  nav .zc #yzm {
+    display: inline-block;
+    width: 3.2rem;
+    height: 1rem;
+    line-height: 1rem;
+    text-align: center;
+    font-size: 1.2em;
+    border: 2px solid #1E7DD7;
+    border-radius: 0.8rem;
+    color: #1E7DD7; }
+  nav .zc #yzmtxt {
+    width: 7.2rem; }
+  nav .zc #password {
+    width: 7.2rem; }
+
+nav button {
+  margin: 0.8rem 0.5rem 0;
+  width: 9rem;
+  height: 1.4rem;
+  line-height: 1.4rem;
+  text-align: center;
+  background: #1e7dd7;
+  border: 1px solid #1e7dd7;
+  border-radius: 0.75rem;
+  color: #fff;
+  font-size: 1.4em;
+  font-weight: 600; }
+
+footer {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  border-top: 1px solid #ddd; }
+  footer ul li {
+    height: 1.35rem;
+    line-height: 1.35rem;
+    list-style: none;
+    float: left;
+    width: 2rem;
+    text-align: center;
+    font-size: 1.3em;
+    color: #1E7DD7; }
+    footer ul li a {
+      color: #1E7DD7; }
